@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HN.tv</title>
+  <meta name="description" content="6,454 YouTube videos that Hacker News keeps recommending. No login, no algorithm chasing watch time.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23e8590c'/%3E%3Cpath d='M12 9l11 7-11 7z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { const t = localStorage.getItem("hntv-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+  </script>
+</head>
+<body>
+  <header class="top">
+    <button class="icon" id="menuBtn" aria-label="Menu">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </button>
+    <a class="brand" href="#/" aria-label="HN.tv home">
+      <span class="logo"><svg viewBox="0 0 24 24"><path d="M9 7l8 5-8 5z"/></svg></span>
+      <span>HN<b>.tv</b></span>
+    </a>
+    <form class="search" id="searchForm" role="search">
+      <input id="q" type="search" placeholder="Search talks, lectures, topics…" autocomplete="off" aria-label="Search">
+      <button aria-label="Search"><svg viewBox="0 0 24 24"><path d="M10 3a7 7 0 0 1 5.6 11.2l5.1 5.1-1.4 1.4-5.1-5.1A7 7 0 1 1 10 3zm0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/></svg></button>
+    </form>
+    <button class="icon" id="themeBtn" aria-label="Toggle dark mode">
+      <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-.9-.1-1.4A5.5 5.5 0 0 1 13.4 3.1 9 9 0 0 0 12 3z"/></svg>
+    </button>
+  </header>
+
+  <nav class="side" id="side" aria-label="Main">
+    <a href="#/" data-nav="home"><svg viewBox="0 0 24 24"><path d="M4 10l8-6 8 6v10h-5v-6H9v6H4z"/></svg><span>Home</span></a>
+    <a href="#/deep" data-nav="deep"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H4zm2 2v7h12V7zM8 18h8v2H8z"/></svg><span>Deep dives</span></a>
+    <a href="#/explore" data-nav="explore"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></svg><span>Topics</span></a>
+    <hr>
+    <a href="#/liked" data-nav="liked"><svg viewBox="0 0 24 24"><path d="M2 21h4V9H2zm20-11a2 2 0 0 0-2-2h-6.3l1-4.6v-.3c0-.4-.2-.8-.4-1.1L13.2 1 6.6 7.6c-.4.3-.6.8-.6 1.4v10c0 1.1.9 2 2 2h9c.8 0 1.5-.5 1.8-1.2l3-7.1.2-.7z"/></svg><span>Liked</span></a>
+    <a href="#/later" data-nav="later"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7z"/></svg><span>Watch later</span></a>
+    <a href="#/history" data-nav="history"><svg viewBox="0 0 24 24"><path d="M13 3a9 9 0 0 0-9 9H1l4 4 4-4H6a7 7 0 1 1 2 4.9l-1.4 1.4A9 9 0 1 0 13 3zm-1 5v5l4.3 2.5.7-1.2-3.5-2.1V8z"/></svg><span>History</span></a>
+    <hr>
+    <a href="#/settings" data-nav="settings"><svg viewBox="0 0 24 24"><path d="M19.4 13a7.5 7.5 0 0 0 0-2l2.1-1.6-2-3.5-2.5 1a7.4 7.4 0 0 0-1.7-1L15 3h-4l-.3 2.7c-.6.3-1.2.6-1.7 1l-2.5-1-2 3.5L6.6 11a7.5 7.5 0 0 0 0 2l-2.1 1.6 2 3.5 2.5-1c.5.4 1.1.7 1.7 1L11 21h4l.3-2.7c.6-.3 1.2-.6 1.7-1l2.5 1 2-3.5zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z"/></svg><span>Settings</span></a>
+    <a href="#/about" data-nav="about"><svg viewBox="0 0 24 24"><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"/></svg><span>About</span></a>
+  </nav>
+  <div class="scrim" id="scrim"></div>
+
+  <main id="main" tabindex="-1">
+    <div class="loading"><div class="spinner"></div><p>Loading 6,454 videos…</p></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
