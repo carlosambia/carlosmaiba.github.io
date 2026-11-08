@@ -11,3 +11,6 @@ fonts work the same way). Reference them from a brand's `fonts.files` in `brand.
 
 To add a font: drop the `.woff2` here (or in `campaigns/<client>/assets/fonts/` for a
 client-licensed typeface) and list it in that brand's `fonts.files`.
+| `figtree-latin-var.woff2` | Figtree (variable) | 300-900 | SIL Open Font License 1.1 |
+| `lato-latin-400/700.woff2` | Lato | 400, 700 | SIL Open Font License 1.1 |
+| `gochi-hand-latin-400.woff2` | Gochi Hand | 400 | SIL Open Font License 1.1 |

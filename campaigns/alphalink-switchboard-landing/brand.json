@@ -1,0 +1,45 @@
+{
+  "name": "Alphalink Electrical - switchboard landing (2026 design system)",
+  "tagline": "Need a switchboard upgrade in Melbourne?",
+  "colors": {
+    "bg": "#101214",
+    "surface": "#111B35",
+    "primary": "#F6E921",
+    "onPrimary": "#101214",
+    "text": "#FFFDF4",
+    "muted": "#E9E8E3",
+    "accent": "#24498B",
+    "danger": "#E5533D",
+    "success": "#2BAA5E"
+  },
+  "fonts": {
+    "display": "Figtree",
+    "displayWeight": 800,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "body": "Lato",
+    "bodyWeight": 400,
+    "files": [
+      {"family": "Figtree", "src": "_shared/fonts/figtree-latin-var.woff2", "weight": "300 900"},
+      {"family": "Lato", "src": "_shared/fonts/lato-latin-400.woff2", "weight": "400"},
+      {"family": "Lato", "src": "_shared/fonts/lato-latin-700.woff2", "weight": "700"},
+      {"family": "Gochi Hand", "src": "_shared/fonts/gochi-hand-latin-400.woff2", "weight": "400"}
+    ]
+  },
+  "logo": {
+    "full": "alphalink-switchboard-landing/assets/logo-primary.svg",
+    "fullAspect": 3.77
+  },
+  "contact": {
+    "phone": "0456 788 880",
+    "url": "alphalinkelectrical.com.au",
+    "area": "Melbourne's south-east"
+  },
+  "style": {
+    "background": "solid",
+    "highlight": "underline",
+    "radius": 14,
+    "energy": "balanced",
+    "grain": 0.05
+  }
+}

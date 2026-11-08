@@ -1,0 +1,215 @@
+{
+  "note": "Approved assets of the 2026 switchboard landing page (folder 'approved-20261029'). Raw files are git-ignored; run `npm run assets alphalink-switchboard-landing` in studio/. Ask the client for originals (full-res photos, raw footage without CapCut watermark/caption, logo source files).",
+  "assets": [
+    {
+      "file": "assets/logo-primary.svg",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/alphalink-primary-approved.svg",
+      "role": "approved primary logo (SVG)",
+      "quality": "vector - ideal",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/switchboard-service-hero.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/approved-20261029/switchboard-service-hero.webp",
+      "role": "hero: close view of breakers + wiring (dark)",
+      "quality": "1600x1000 - OK for web/1080p, too small for 4K",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/real-ev.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/approved-20261029/real-ev.webp",
+      "role": "EV charger on brick wall",
+      "quality": "646x1400 - portrait, low res",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/real-ceramic-fuses.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/real-ceramic-fuses.webp",
+      "role": "old ceramic fuse board (problem card)",
+      "quality": "600x450 - LOW, needs original or upscale",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/service-board.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/service-board.webp",
+      "role": "new board install (problem card)",
+      "quality": "1050x1400",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/jimmy-meterbox-1000.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/jimmy-meterbox-1000.webp",
+      "role": "Jimmy at outdoor meter box",
+      "quality": "1000x1333 - documentary, strong",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/jimmy-team-1000.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/jimmy-team-1000.webp",
+      "role": "Jimmy + Tony at the van",
+      "quality": "1000x1497",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/jimmy-original-tall.png",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/jimmy-original-tall.png",
+      "role": "Jimmy cutout (transparent) - hero mark",
+      "quality": "776x1404 RGBA - clean edges, no badges",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/work-wide-1200.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/work-wide-1200.webp",
+      "role": "Jimmy on ladder, commercial fit-out",
+      "quality": "1200x675",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/photos/commercial-lighting-1000.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/commercial-lighting-1000.webp",
+      "role": "restaurant lighting job",
+      "quality": "1000x1500",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/brand-library-intersection.svg",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/brand-library/intersection.svg",
+      "role": "yellow line motif - crossing",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/brand-library-loop-corner.svg",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/brand-library/loop-corner.svg",
+      "role": "yellow line motif - loop corner",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/brand-library-lower-turn.svg",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/brand-library/lower-turn.svg",
+      "role": "yellow line motif - lower turn",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/brand-strokes-grain.svg",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/brand-strokes/grain.svg",
+      "role": "grain tile",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/charcoal-grain.svg",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/charcoal-grain.svg",
+      "role": "charcoal grain tile",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphic-pack-04-paper-relief.svg",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/graphic-pack/04-paper-relief.svg",
+      "role": "paper relief texture",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/grain-pack-blue-crossing.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/grain-pack/blue-crossing.webp",
+      "role": "dark key visual: yellow/blue light crossing (2688x1520)",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/credentials-master-electricians.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/credentials/master-electricians.webp",
+      "role": "Master Electricians badge",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/credentials-neca.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/landing/assets/credentials/neca.webp",
+      "role": "NECA badge",
+      "quality": "brand library",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-hero-curve.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/hero-curve.webp",
+      "role": "hero yellow brush curve",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-hero-edge.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/hero-edge.webp",
+      "role": "hero torn edge",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-jimmy-mark.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/jimmy-mark.webp",
+      "role": "brush 'A' mark behind Jimmy",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-cta-curve.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/cta-curve.webp",
+      "role": "CTA brush curve",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-experience-badge.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/experience-badge.webp",
+      "role": "15+ years badge",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-reviews-curve.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/reviews-curve.webp",
+      "role": "reviews brush curve",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-faq-mark.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/faq-mark.webp",
+      "role": "FAQ brush mark",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-gallery-entry.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/gallery-entry.webp",
+      "role": "gallery brush entry",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/brand-library/graphics-gallery-exit.webp",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/themes/alphalink/assets/graphics/gallery-exit.webp",
+      "role": "gallery brush exit",
+      "quality": "1600px RGBA brush graphic",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/video/alphalink-switchboard-fitoff.mp4",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2026/10/al-landing-video/alphalink-switchboard-fitoff.mp4",
+      "role": "real switchboard fit-off footage (20.3 s)",
+      "quality": "720x1280, CapCut watermark + burned-in caption - ask for the RAW clip",
+      "license": "client-owned"
+    },
+    {
+      "file": "assets/video/alphalink-switchboard-fitoff-poster.jpg",
+      "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2026/10/al-landing-video/alphalink-switchboard-fitoff.jpg",
+      "role": "video poster frame",
+      "quality": "web",
+      "license": "client-owned"
+    }
+  ]
+}

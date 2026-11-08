@@ -4,10 +4,12 @@ import brand0 from '../../../campaigns/alphalink-electrical/brand.json';
 import c0a0 from '../../../campaigns/alphalink-electrical/ads/switchboard-3-signs-hook-b.json';
 import c0a1 from '../../../campaigns/alphalink-electrical/ads/switchboard-3-signs.json';
 import c0a2 from '../../../campaigns/alphalink-electrical/ads/trust-bumper-6s.json';
-import brand1 from '../../../campaigns/city-rock-y-ramen/brand.json';
-import c1a0 from '../../../campaigns/city-rock-y-ramen/ads/poster-lightup.json';
+import brand1 from '../../../campaigns/alphalink-switchboard-landing/brand.json';
+import brand2 from '../../../campaigns/city-rock-y-ramen/brand.json';
+import c2a0 from '../../../campaigns/city-rock-y-ramen/ads/poster-lightup.json';
 
 export const CAMPAIGNS: {slug: string; brand: unknown; ads: unknown[]}[] = [
   {slug: 'alphalink-electrical', brand: brand0 as unknown, ads: [c0a0, c0a1, c0a2] as unknown[]},
-  {slug: 'city-rock-y-ramen', brand: brand1 as unknown, ads: [c1a0] as unknown[]},
+  {slug: 'alphalink-switchboard-landing', brand: brand1 as unknown, ads: [] as unknown[]},
+  {slug: 'city-rock-y-ramen', brand: brand2 as unknown, ads: [c2a0] as unknown[]},
 ];
