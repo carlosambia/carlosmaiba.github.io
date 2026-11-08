@@ -1,0 +1,18 @@
+{
+  "id": "switchboard-3-signs-hook-b",
+  "extends": "switchboard-3-signs",
+  "title": "Switchboard - 3 signs (Hook B: pain-point callout)",
+  "formats": ["9x16"],
+  "patch": {
+    "scenes": {
+      "0": {
+        "eyebrow": "Melbourne's south-east",
+        "headline": "Power keeps\n*tripping?*",
+        "sub": "It could be your switchboard. Here's what to check.",
+        "animation": "stack",
+        "caption": "Power keeps tripping? It could be your switchboard.",
+        "note": "Variant B: specific pain-point callout instead of a safety question. Same body - only the hook changes, so the test isolates the hook."
+      }
+    }
+  }
+}

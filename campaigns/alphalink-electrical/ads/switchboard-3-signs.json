@@ -1,0 +1,112 @@
+{
+  "id": "switchboard-3-signs",
+  "title": "Switchboard upgrades - 3 signs (listicle)",
+  "formula": "HOOK-LIST-HERO-PROOF-CTA (educational listicle, see docs/formulas.md #2)",
+  "objective": "Leads: quote requests for switchboard checks/upgrades",
+  "audience": "Homeowners 30-65 in Melbourne's south-east with older homes (pre-2000 fuse boxes), plus EV/aircon buyers",
+  "landingPage": "https://www.alphalinkelectrical.com.au/service/switchboard-upgrades/",
+  "fps": 30,
+  "formats": [
+    "9x16",
+    "4x5",
+    "16x9"
+  ],
+  "safeZone": "reels",
+  "logoBug": true,
+  "captions": false,
+  "scenes": [
+    {
+      "type": "hook",
+      "duration": 2.8,
+      "eyebrow": "Melbourne homeowners",
+      "headline": "Is your\nswitchboard\n*still safe?*",
+      "sub": "3 signs it's time to get it checked",
+      "graphic": "switchboard",
+      "animation": "slam",
+      "transition": {
+        "type": "flash",
+        "duration": 0.3
+      },
+      "caption": "Is your switchboard still safe?",
+      "note": "Question hook + visual pattern interrupt (arcing fuse). Brand bug visible from frame 4."
+    },
+    {
+      "type": "listicle",
+      "duration": 6.9,
+      "title": "3 signs it's time\nfor an *upgrade*",
+      "tone": "warning",
+      "items": [
+        {
+          "title": "Old ceramic fuses",
+          "sub": "An older fuse box without safety switches",
+          "icon": "fuse"
+        },
+        {
+          "title": "Power keeps tripping",
+          "sub": "Find the cause before it gets worse",
+          "icon": "bolt"
+        },
+        {
+          "title": "New EV charger or aircon?",
+          "sub": "Check your board can handle the load",
+          "icon": "ev"
+        }
+      ],
+      "transition": {
+        "type": "slide",
+        "duration": 0.35,
+        "direction": "from-bottom"
+      },
+      "caption": "Old fuses, constant tripping, or a new EV charger or aircon on the way?",
+      "note": "Items mirror the landing page's first line verbatim: 'Old fuses, power that keeps tripping or new equipment to connect?'"
+    },
+    {
+      "type": "hero",
+      "duration": 3.9,
+      "eyebrow": "Master Electricians accredited",
+      "headline": "Meet Jimmy.\nYour *local sparky.*",
+      "chips": [
+        "What we quote is what you pay",
+        "Response in 24 hrs or less",
+        "100% satisfaction guarantee"
+      ],
+      "cutout": "alphalink-electrical/assets/jimmy-cutout.png",
+      "nameTag": {
+        "name": "Jimmy Ly",
+        "role": "Fully licensed electrician"
+      },
+      "transition": {
+        "type": "slide",
+        "duration": 0.35,
+        "direction": "from-right"
+      },
+      "caption": "Jimmy checks your board, explains the options and quotes upfront.",
+      "note": "Face + name = trust. Chips are claims taken word-for-word from the site (see research.md claims ledger)."
+    },
+    {
+      "type": "testimonial",
+      "duration": 4.3,
+      "quote": "I needed a full replacement of my very old main switch box... The professionalism and ease of the entire process were *outstanding.*",
+      "author": "Sal",
+      "meta": "Google review",
+      "rating": 5,
+      "transition": {
+        "type": "flash",
+        "duration": 0.3
+      },
+      "caption": "Real Google review: a full switch box replacement.",
+      "note": "Verbatim (trimmed with ellipsis) public Google review. Directly about a switchboard job = maximum relevance."
+    },
+    {
+      "type": "cta",
+      "duration": 3.8,
+      "headline": "Book a\n*switchboard check*",
+      "button": "Request a quote",
+      "showPhone": true,
+      "showUrl": true,
+      "badges": "alphalink-electrical/assets/accreditations.png",
+      "caption": "Request a quote - response in 24 hrs or less.",
+      "note": "Button label = the landing page's CTA label (message match)."
+    }
+  ]
+}

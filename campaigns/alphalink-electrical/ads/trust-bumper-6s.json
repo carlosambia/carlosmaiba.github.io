@@ -1,0 +1,48 @@
+{
+  "id": "trust-bumper-6s",
+  "title": "Trust bumper - 6s (YouTube bumper / retargeting)",
+  "formula": "BUMPER: PROOF-CTA (ABCD compressed, see docs/formulas.md #6)",
+  "objective": "Retargeting site visitors; brand recall",
+  "landingPage": "https://www.alphalinkelectrical.com.au/quote/",
+  "fps": 30,
+  "formats": [
+    "16x9",
+    "9x16",
+    "1x1"
+  ],
+  "safeZone": "reels",
+  "logoBug": true,
+  "scenes": [
+    {
+      "type": "stats",
+      "duration": 3.3,
+      "headline": "Melbourne's\n*trusted* sparky",
+      "stats": [
+        {
+          "value": 15,
+          "suffix": "+",
+          "label": "Years experience"
+        },
+        {
+          "value": 5,
+          "decimals": 1,
+          "label": "Rated on Google",
+          "stars": true
+        }
+      ],
+      "badges": "alphalink-electrical/assets/accreditations.png",
+      "transition": {
+        "type": "zoom",
+        "duration": 0.3
+      }
+    },
+    {
+      "type": "cta",
+      "duration": 3.0,
+      "headline": "Licensed. Upfront.\n*No hidden costs.*",
+      "button": "Request a quote",
+      "showPhone": true,
+      "showUrl": false
+    }
+  ]
+}

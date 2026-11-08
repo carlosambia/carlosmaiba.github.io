@@ -1,0 +1,12 @@
+# dependencies & build
+node_modules/
+studio/node_modules/
+studio/build/
+.DS_Store
+
+# renders, QA sheets
+out/
+
+# raw client / supplied assets are NOT committed (see each campaign's assets.manifest.json)
+campaigns/*/assets/*
+!campaigns/_shared/

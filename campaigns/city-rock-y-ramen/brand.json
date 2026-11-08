@@ -1,0 +1,27 @@
+{
+  "name": "City Rock y Ramen (NXT Concept)",
+  "tagline": "Anime rock night - Hana Bar & Lounge, Lince",
+  "colors": {
+    "bg": "#070B33",
+    "surface": "#12207A",
+    "primary": "#3FD8FF",
+    "onPrimary": "#070B33",
+    "text": "#FFFFFF",
+    "muted": "#B9C6FF",
+    "accent": "#FF3EA5",
+    "danger": "#FF4D4D",
+    "success": "#2BE0A0"
+  },
+  "fonts": {
+    "display": "Oswald",
+    "displayWeight": 700,
+    "displayCase": "upper",
+    "displayTracking": 0,
+    "body": "Oswald",
+    "bodyWeight": 400,
+    "files": [{"family": "Oswald", "src": "_shared/fonts/oswald-latin-var.woff2", "weight": "200 700"}]
+  },
+  "logo": {"full": "city-rock-y-ramen/assets/nxt-logo.png", "fullAspect": 3.06},
+  "contact": {"url": "joinnus.com", "area": "Hana Bar & Lounge - Jr Tomás Guido 273, Lince"},
+  "style": {"background": "solid", "highlight": "color", "radius": 18, "energy": "punchy", "grain": 0.04}
+}

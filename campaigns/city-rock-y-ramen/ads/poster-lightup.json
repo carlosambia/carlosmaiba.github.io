@@ -1,0 +1,38 @@
+{
+  "id": "poster-lightup",
+  "title": "City Rock y Ramen - poster 'city lights up' promo (layered, editable)",
+  "formula": "POSTER-TO-MOTION: reveal-in-beats (talent > title > info > CTA), see docs/formulas.md #7",
+  "objective": "Ticket sales - Reels/Stories/TikTok for the 20 Nov show",
+  "landingPage": "https://joinnus.com",
+  "fps": 30,
+  "formats": ["9x16", "4x5"],
+  "safeZone": "none",
+  "logoBug": false,
+  "scenes": [
+    {
+      "type": "layers",
+      "duration": 8.5,
+      "canvas": {"width": 1449, "height": 2576},
+      "fit": "contain",
+      "camera": "push-in",
+      "note": "Lights-off base, then each element 'strikes' like a neon tube, then the whole city switches on. Date + sticker are LIVE text.",
+      "layers": [
+        {"name": "base (lights off)", "src": "city-rock-y-ramen/assets/poster.jpg", "x": 0, "y": 0, "w": 1449, "h": 2576, "depth": 0.1, "enter": "fade", "brightness": 0.28},
+
+        {"name": "panel: Edena Giovanna", "src": "city-rock-y-ramen/assets/poster.jpg", "crop": {"x": 270, "y": 455, "w": 345, "h": 745}, "x": 270, "y": 455, "w": 345, "h": 745, "feather": 22, "depth": 0.6, "enter": "light-up", "at": 0.35, "glow": "#3FD8FF"},
+        {"name": "panel: MEI", "src": "city-rock-y-ramen/assets/poster.jpg", "crop": {"x": 610, "y": 515, "w": 300, "h": 680}, "x": 610, "y": 515, "w": 300, "h": 680, "feather": 22, "depth": 0.6, "enter": "light-up", "at": 0.75, "glow": "#3FD8FF"},
+        {"name": "panel: Andrea Martinez", "src": "city-rock-y-ramen/assets/poster.jpg", "crop": {"x": 900, "y": 590, "w": 340, "h": 610}, "x": 900, "y": 590, "w": 340, "h": 610, "feather": 22, "depth": 0.6, "enter": "light-up", "at": 1.15, "glow": "#3FD8FF"},
+
+        {"name": "base (lights on)", "src": "city-rock-y-ramen/assets/poster.jpg", "x": 0, "y": 0, "w": 1449, "h": 2576, "depth": 0.1, "enter": "light-up", "at": 2.9, "glow": "#3FD8FF"},
+
+        {"name": "title (neon, keyed)", "src": "city-rock-y-ramen/assets/title-key.png", "x": 0, "y": 0, "w": 1449, "h": 2576, "depth": 0.9, "enter": "light-up", "at": 1.7, "loop": "flicker", "glow": "#7FE6FF"},
+
+        {"name": "info box", "src": "city-rock-y-ramen/assets/poster.jpg", "crop": {"x": 215, "y": 2085, "w": 1020, "h": 310}, "x": 215, "y": 2085, "w": 1020, "h": 310, "feather": 10, "depth": 0.8, "enter": "rise", "at": 3.4},
+        {"name": "date (LIVE TEXT - edit me)", "text": "Viernes\n20\nNoviembre", "textStyle": {"family": "display", "color": "#121A44", "background": "#F3F1EA", "align": "center", "maxSize": 130, "lineHeight": 0.98, "padding": 14, "radius": 6}, "x": 932, "y": 2133, "w": 268, "h": 220, "depth": 0.8, "enter": "pop", "at": 3.75},
+        {"name": "footer (tickets)", "src": "city-rock-y-ramen/assets/poster.jpg", "crop": {"x": 0, "y": 2420, "w": 1449, "h": 156}, "x": 0, "y": 2420, "w": 1449, "h": 156, "depth": 0.2, "enter": "rise", "at": 4.0},
+
+        {"name": "urgency sticker (LIVE TEXT - new copy, no regeneration)", "text": "¡Últimas entradas!", "textStyle": {"family": "display", "color": "#FFFFFF", "background": "#FF3EA5", "align": "center", "maxSize": 92, "padding": 22, "radius": 16}, "x": 330, "y": 300, "w": 790, "h": 140, "depth": 1, "enter": "pop", "at": 4.6, "loop": "pulse", "glow": "#FF3EA5"}
+      ]
+    }
+  ]
+}

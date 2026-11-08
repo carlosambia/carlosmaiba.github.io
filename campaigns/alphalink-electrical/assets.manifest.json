@@ -1,0 +1,12 @@
+{
+  "note": "Client-owned assets pulled from the client's public website for their own advertising. Raw files are git-ignored; run 'npm run assets' in studio/ to fetch them. Replace with originals from the client when available (higher resolution, layered sources).",
+  "assets": [
+    {"file": "assets/logo.png", "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2025/07/logo.png", "role": "logo (white + yellow, for dark backgrounds)", "license": "client-owned"},
+    {"file": "assets/isotype.png", "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2025/07/Isotype.png", "role": "logo mark", "license": "client-owned"},
+    {"file": "assets/jimmy-cutout.png", "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2026/03/jimmy-hero-section.png", "role": "transparent cutout of Jimmy (badges baked in) - hero/proof layer", "license": "client-owned"},
+    {"file": "assets/jimmy-van.webp", "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2026/03/trustmarker-img.webp", "role": "photo of Jimmy at the van", "license": "client-owned"},
+    {"file": "assets/team-1.webp", "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2026/03/about-us-img.webp", "role": "on-the-job collage", "license": "client-owned"},
+    {"file": "assets/team-2.webp", "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2026/03/about-us-img-02.webp", "role": "team collage", "license": "client-owned"},
+    {"file": "assets/accreditations.png", "url": "https://www.alphalinkelectrical.com.au/wp-content/uploads/2025/07/Acreditations-1-e1751523833917.png", "role": "ARC / NECA / Master Electricians badge strip", "license": "client-owned (trade association marks used as membership proof)"}
+  ]
+}

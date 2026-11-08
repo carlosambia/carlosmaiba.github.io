@@ -1,0 +1,67 @@
+{
+  "name": "Alphalink Electrical",
+  "tagline": "Melbourne's trusted Master Electrician",
+  "colors": {
+    "bg": "#081322",
+    "surface": "#112337",
+    "primary": "#F6E921",
+    "onPrimary": "#081322",
+    "text": "#FFFFFF",
+    "muted": "#AAB6C8",
+    "accent": "#527EFF",
+    "danger": "#FF6B4A",
+    "success": "#2BD46B"
+  },
+  "fonts": {
+    "display": "Poppins",
+    "displayWeight": 800,
+    "displayCase": "upper",
+    "displayTracking": -0.01,
+    "body": "DM Sans",
+    "bodyWeight": 500,
+    "files": [
+      {
+        "family": "Poppins",
+        "src": "_shared/fonts/poppins-latin-500.woff2",
+        "weight": "500"
+      },
+      {
+        "family": "Poppins",
+        "src": "_shared/fonts/poppins-latin-600.woff2",
+        "weight": "600"
+      },
+      {
+        "family": "Poppins",
+        "src": "_shared/fonts/poppins-latin-700.woff2",
+        "weight": "700"
+      },
+      {
+        "family": "Poppins",
+        "src": "_shared/fonts/poppins-latin-800.woff2",
+        "weight": "800"
+      },
+      {
+        "family": "DM Sans",
+        "src": "_shared/fonts/dm-sans-latin-var.woff2",
+        "weight": "100 1000"
+      }
+    ]
+  },
+  "logo": {
+    "full": "alphalink-electrical/assets/logo.png",
+    "mark": "alphalink-electrical/assets/isotype.png",
+    "fullAspect": 2.85
+  },
+  "contact": {
+    "phone": "0456 788 880",
+    "url": "alphalinkelectrical.com.au",
+    "area": "Melbourne's south-east"
+  },
+  "style": {
+    "background": "circuit",
+    "highlight": "box",
+    "radius": 28,
+    "energy": "punchy",
+    "grain": 0.06
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "note": "Event poster supplied by the user (not committed). Put the flat poster at assets/poster.jpg, then derive layers: python3 ../../studio/scripts/luma-key.py assets/poster.jpg assets/title-key.png 290 1180 900 860 ; nxt-logo.png = crop (40,40)-(300,125) of the poster. Better: export real layers from the designer's PSD/Figma, or segment with SAM (Magnific images_segment) / Magnific design_auto_layers.",
+  "assets": [
+    {"file": "assets/poster.jpg", "url": null, "role": "flat 1449x2576 poster (base layer)", "license": "user-supplied event artwork", "note": "drop the original poster here"},
+    {"file": "assets/title-key.png", "url": null, "role": "neon title, keyed to alpha (derived)", "license": "derived", "note": "run luma-key.py (see note above)"},
+    {"file": "assets/nxt-logo.png", "url": null, "role": "promoter logo (derived crop)", "license": "derived", "note": "crop from poster"}
+  ]
+}
