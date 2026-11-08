@@ -12,6 +12,7 @@ research → concepts → spec (JSON) → assets (layers) → visual QA loop →
 * **Formulas:** [`docs/formulas.md`](docs/formulas.md): rules, hook bank, timing tables, QA rubric
 * **Specs:** [`docs/platform-specs.md`](docs/platform-specs.md): formats, safe zones, delivery, embed
 * **Operating manual for Claude:** [`CLAUDE.md`](CLAUDE.md)
+* **Research (Nov 2026):** [`reports/Generative image and video tools 2026.md`](reports/Generative%20image%20and%20video%20tools%202026.md): models, platforms and pricing (Higgsfield vs alternatives), licensing in Australia, non-AI-look craft, workflows
 
 ## Quick start
 
@@ -29,6 +30,7 @@ In Claude Code: `/ad-pipeline https://example.com "leads for <service>"`, or any
 `/ad-research`, `/ad-concepts`, `/ad-spec`, `/ad-assets`, `/ad-qa`, `/ad-render`, `/poster-to-motion`.
 
 ## Examples
+* `campaigns/alphalink-switchboard-landing`: **separate project** for the 2026 landing redesign: teardown, 2026 design tokens, asset audit, workflow options (no ads yet).
 * `campaigns/alphalink-electrical`: research + claims ledger, brief + scored hook bank, a 20 s
   listicle ad in 9:16 / 4:5 / 16:9, a Hook-B variant (10-line patch), and a 6 s bumper.
 * `campaigns/city-rock-y-ramen`: a flat event poster rebuilt as a layered "city lights up" Reel
