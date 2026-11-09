@@ -10,6 +10,7 @@ Carlos and George's notes from CMSEO 2026, plus ideas for Amebae clients.
 
 - [day-1-mon-09-nov.md](day-1-mon-09-nov.md): Monday session notes
 - [client-ideas.md](client-ideas.md): ideas to take back to clients, grouped by talk
+- [voice-lab-loop-plan.md](voice-lab-loop-plan.md): plan for training and testing a writer-style agent
 - [slides/](slides/): photos of slides
 
 ## Week at a glance
