@@ -92,3 +92,30 @@ From the agenda blurb: she treats AI visibility as a **distribution problem rath
 - What's the human review step for accuracy?
 - Which avatar tool does she use, and what does each piece cost?
 - Do the LinkedIn and Medium copies ever outrank the original blog post?
+
+---
+
+## Will Tribe (switch.monster): "The Lead-Gen Leverage Window: Test, Build, Scale, Dominate"
+
+4:00 to 4:40pm, Suthep Hall 1, Business Growth track. *Speaker assumed from the topic; confirm.*
+
+**Background from his bio:**
+- Runs **2,000+ lead-gen websites** generating **5,000+ phone calls a month**.
+- His team built its own internal tools with AI coding: opportunity mapping, AI call tracking, rank tracking, site health and campaign execution.
+- Specialises in small sites and exact-match domains, in niches most SEOs avoid because the scale feels unmanageable.
+
+**The talk:**
+- AI has made testing cheap. He finds overlooked search demand and turns it into tracked phone calls, proof of revenue and leverage with buyers, before spending real money on scaling.
+- He walks through his **Test, Build, Scale, Dominate** framework, with its decision gates, from scrappy test sites to programmatic systems.
+- He promises downloadable prompts, checklists and templates. **Get the link.**
+
+**Live notes:**
+- **Orchestration:** AI automation keeps hundreds of sites up to date from **one main source**, well orchestrated.
+- **Book he recommended:** *Pitch Anything* by Oren Klaff.
+
+**Questions for Will:**
+- What lives in the main source, and what is unique to each site?
+- How does he avoid Google's scaled content abuse and doorway page policies?
+- What metric kills a test site, and when?
+- How does he sell the leads: per call, or by renting out the site?
+- Which call-tracking tool does he use?

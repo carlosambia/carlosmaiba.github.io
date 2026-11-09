@@ -27,6 +27,7 @@ A shortlist for the team, checked November 2026.
 - **Obviously Awesome**, April Dunford. Positioning: copy only works when the positioning is clear.
 - **Breakthrough Advertising**, Eugene Schwartz. *Classic.* Writing for the reader's level of awareness.
 - **Ogilvy on Advertising**, David Ogilvy. *Classic.*
+- **Pitch Anything**, Oren Klaff (2011). *Recommended on stage at CMSEO, Day 1.* Frame control and the STRONG pitch method, for selling to buyers and clients. Popular in sales circles, though some readers find the tactics heavy-handed. The follow-up is *Flip the Script*.
 
 ### Style and clarity
 

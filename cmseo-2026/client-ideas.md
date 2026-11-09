@@ -29,6 +29,17 @@ These are first drafts to sort through after the conference.
   - **Accuracy:** a human reviews before anything is published.
 - **Possible pilot:** take one existing client blog post, run it through all four lines, and show the team the output, time taken and cost.
 
+## From Will Tribe: many sites from one source
+
+- **One source of truth, many sites:** keep business data, offers, schema, pricing and FAQs in one central place, and push updates to every site automatically.
+- **Who it suits:**
+  - multi-location and franchise clients
+  - clients with several brands
+  - lead-gen sites the agency owns
+- **Combine with Alex Moss's checklist:** generate `llms.txt`, Markdown copies, schema and Content-Signal for every site from the same source.
+- **Test before scaling:** cheap AI-built test sites with clear go or kill rules, such as calls per month, before investing in a niche.
+- **Risk to manage:** Google's scaled content abuse and doorway page policies. Each site needs genuinely useful content of its own, not template swaps.
+
 ## Carlos's idea: writer voice models and blended house styles
 
 **The idea:**
